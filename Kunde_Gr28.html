@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Lieferspatz - Restaurant auswählen</title>
+</head>
+<body>
+    <header>
+        <img src="bird.png" alt="Lieferspatz Logo" class="logo">
+        <h1>Worauf hast du heute Lust?</h1>
+    </header>
+
+    <nav class="navbar">
+        <div class="navbar-left">
+            <a href="/customer_account" class="icon-button">
+                <img src="user.png" alt="Kundenkonto" class="icon-img">
+            </a>
+            <input type="text" placeholder="Suche nach Restaurants" class="search-bar">
+        </div>
+
+        <div class="navbar-right">
+            <a href="/shopping_cart" class="icon-button">
+                <img src="shopping-cart.png" alt="Warenkorb" class="icon-img">
+            </a>
+        </div>
+    </nav>
+
+    <section id="select-restaurant" class="content-section">
+        <h1>Hallo Max Muster</h1>
+        <h2>Worauf hast du heute Lust?</h2>
+
+        <a href="Restaurant1_Gr28.html" class="restaurant-card">
+            <img src="pizzeria.png" alt="Restaurant 1 Icon" class="restaurant-icon">
+            <div class="restaurant-info">
+                <h3>Pizzeria AMORE</h3>
+                <p>Musterstraße 123, 01234, Musterstadt</p>
+            </div>
+            <img src="pizza-slice.png" alt="kueche-icon" class="kueche-icon">
+        </a>
+
+        <a href="/menu?restaurant=restaurant2" class="restaurant-card">
+            <img src="pizzeria.png" alt="Restaurant 2 Icon" class="restaurant-icon">
+            <div class="restaurant-info">
+                <h3>Pizzeria HASS</h3>
+                <p>Musterallee 12, 01243, Musterhausen</p>
+            </div>
+            <img src="pizza-slice.png" alt="kueche-icon" class="kueche-icon">
+        </a>
+
+        <a href="/menu?restaurant=restaurant3" class="restaurant-card">
+            <img src="burger-2.png" alt="Restaurant 3 Icon" class="restaurant-icon">
+            <div class="restaurant-info">
+                <h3>Kadirburger</h3>
+                <p>Mustergasse 95, 01243, Musterhausen</p>
+            </div>
+            <img src="burger.png" alt="kueche-icon" class="kueche-icon">
+        </a>
+    </section>
+
+    <footer>
+        <p>Datenbanken WS 23/24, Bagci, Lindner</p>
+    </footer>
+</body>
+</html>
